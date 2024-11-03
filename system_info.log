@@ -1,0 +1,166 @@
+2024-10-28 22:19:04,725 - DEBUG:systeminfo.py:53,__init__ - SystemInfo object created
+2024-10-28 22:19:04,725 - DEBUG:systeminfo.py:57,get_os_info - Getting OS info
+2024-10-28 22:19:04,725 - DEBUG:systeminfo.py:70,get_cpu_info - Getting CPU info
+2024-10-28 22:19:05,728 - DEBUG:systeminfo.py:82,get_memory_info - Getting memory info
+2024-10-28 22:19:05,728 - DEBUG:systeminfo.py:97,get_hd_info - Getting hard drive info
+2024-10-28 22:19:05,728 - DEBUG:systeminfo.py:120,get_time_info - Getting OS info
+2024-10-28 22:19:05,728 - DEBUG:systeminfo.py:139,display_result - Displaying result
+2024-10-28 22:19:05,729 - DEBUG:systeminfo.py:151,display_result - Output format: text
+2024-10-28 22:19:22,499 - DEBUG:systeminfo.py:53,__init__ - SystemInfo object created
+2024-10-28 22:19:22,499 - DEBUG:systeminfo.py:57,get_os_info - Getting OS info
+2024-10-28 22:19:22,499 - DEBUG:systeminfo.py:70,get_cpu_info - Getting CPU info
+2024-10-28 22:19:23,504 - DEBUG:systeminfo.py:82,get_memory_info - Getting memory info
+2024-10-28 22:19:23,504 - DEBUG:systeminfo.py:97,get_hd_info - Getting hard drive info
+2024-10-28 22:19:23,505 - DEBUG:systeminfo.py:120,get_time_info - Getting OS info
+2024-10-28 22:19:23,505 - DEBUG:systeminfo.py:139,display_result - Displaying result
+2024-10-28 22:19:23,505 - DEBUG:systeminfo.py:151,display_result - Output format: text
+2024-10-28 22:20:45,652 - DEBUG:systeminfo.py:53,__init__ - SystemInfo object created
+2024-10-28 22:20:45,652 - DEBUG:systeminfo.py:57,get_os_info - Getting OS info
+2024-10-28 22:20:45,652 - DEBUG:systeminfo.py:70,get_cpu_info - Getting CPU info
+2024-10-28 22:20:46,657 - DEBUG:systeminfo.py:82,get_memory_info - Getting memory info
+2024-10-28 22:20:46,657 - DEBUG:systeminfo.py:97,get_hd_info - Getting hard drive info
+2024-10-28 22:20:46,658 - DEBUG:systeminfo.py:120,get_time_info - Getting OS info
+2024-10-28 22:20:46,658 - DEBUG:systeminfo.py:139,display_result - Displaying result
+2024-10-28 22:20:46,658 - DEBUG:systeminfo.py:151,display_result - Output format: text
+2024-10-28 22:23:48,560 - DEBUG:systeminfo.py:46,__init__ - SystemInfo object created
+2024-10-28 22:23:48,560 - DEBUG:systeminfo.py:50,get_os_info - Getting OS info
+2024-10-28 22:23:48,560 - DEBUG:systeminfo.py:63,get_cpu_info - Getting CPU info
+2024-10-28 22:23:49,565 - DEBUG:systeminfo.py:75,get_memory_info - Getting memory info
+2024-10-28 22:23:49,565 - DEBUG:systeminfo.py:90,get_hd_info - Getting hard drive info
+2024-10-28 22:23:49,566 - DEBUG:systeminfo.py:113,get_time_info - Getting OS info
+2024-10-28 22:23:49,566 - DEBUG:systeminfo.py:132,display_result - Displaying result
+2024-10-28 22:23:49,566 - DEBUG:systeminfo.py:144,display_result - Output format: text
+2024-10-28 22:24:48,858 - DEBUG:systeminfo.py:49,__init__ - SystemInfo object created
+2024-10-28 22:24:48,858 - DEBUG:systeminfo.py:53,get_os_info - Getting OS info
+2024-10-28 22:24:48,859 - DEBUG:systeminfo.py:66,get_cpu_info - Getting CPU info
+2024-10-28 22:24:49,860 - DEBUG:systeminfo.py:78,get_memory_info - Getting memory info
+2024-10-28 22:24:49,860 - DEBUG:systeminfo.py:93,get_hd_info - Getting hard drive info
+2024-10-28 22:24:49,860 - DEBUG:systeminfo.py:116,get_time_info - Getting OS info
+2024-10-28 22:24:49,860 - DEBUG:systeminfo.py:135,display_result - Displaying result
+2024-10-28 22:24:49,860 - DEBUG:systeminfo.py:147,display_result - Output format: text
+2024-10-28 22:25:34,588 - DEBUG:systeminfo.py:49,__init__ - SystemInfo object created
+2024-10-28 22:25:34,588 - DEBUG:systeminfo.py:53,get_os_info - Getting OS info
+2024-10-28 22:25:34,589 - DEBUG:systeminfo.py:66,get_cpu_info - Getting CPU info
+2024-10-28 22:25:35,592 - DEBUG:systeminfo.py:78,get_memory_info - Getting memory info
+2024-10-28 22:25:35,592 - DEBUG:systeminfo.py:93,get_hd_info - Getting hard drive info
+2024-10-28 22:25:35,592 - DEBUG:systeminfo.py:116,get_time_info - Getting OS info
+2024-10-28 22:25:35,592 - DEBUG:systeminfo.py:135,display_result - Displaying result
+2024-10-28 22:25:35,592 - DEBUG:systeminfo.py:147,display_result - Output format: text
+2024-10-28 22:31:26,050 - ERROR:systeminfo.py:48,<module> - No arguments provided. Please specify at least one option: -os, -c, -m, -d, -t, or -a.
+2024-10-28 22:32:37,645 - ERROR:systeminfo.py:48,<module> - No arguments provided. Please specify at least one option: -os, -c, -m, -d, -t, or -a.
+2024-10-28 22:32:45,840 - DEBUG:systeminfo.py:61,__init__ - SystemInfo object created
+2024-10-28 22:32:45,841 - DEBUG:systeminfo.py:65,get_os_info - Getting OS info
+2024-10-28 22:32:45,841 - DEBUG:systeminfo.py:78,get_cpu_info - Getting CPU info
+2024-10-28 22:32:46,841 - DEBUG:systeminfo.py:90,get_memory_info - Getting memory info
+2024-10-28 22:32:46,841 - DEBUG:systeminfo.py:105,get_hd_info - Getting hard drive info
+2024-10-28 22:32:46,841 - DEBUG:systeminfo.py:128,get_time_info - Getting OS info
+2024-10-28 22:32:46,842 - DEBUG:systeminfo.py:147,display_result - Displaying result
+2024-10-28 22:32:46,842 - DEBUG:systeminfo.py:159,display_result - Output format: text
+2024-10-28 22:32:50,342 - DEBUG:systeminfo.py:61,__init__ - SystemInfo object created
+2024-10-28 22:32:50,342 - DEBUG:systeminfo.py:65,get_os_info - Getting OS info
+2024-10-28 22:32:50,342 - DEBUG:systeminfo.py:78,get_cpu_info - Getting CPU info
+2024-10-28 22:32:51,347 - DEBUG:systeminfo.py:90,get_memory_info - Getting memory info
+2024-10-28 22:32:51,348 - DEBUG:systeminfo.py:105,get_hd_info - Getting hard drive info
+2024-10-28 22:32:51,348 - DEBUG:systeminfo.py:128,get_time_info - Getting OS info
+2024-10-28 22:32:51,348 - DEBUG:systeminfo.py:147,display_result - Displaying result
+2024-10-28 22:32:51,348 - DEBUG:systeminfo.py:159,display_result - Output format: text
+2024-10-28 22:32:59,066 - DEBUG:systeminfo.py:61,__init__ - SystemInfo object created
+2024-10-28 22:32:59,066 - DEBUG:systeminfo.py:65,get_os_info - Getting OS info
+2024-10-28 22:32:59,066 - DEBUG:systeminfo.py:78,get_cpu_info - Getting CPU info
+2024-10-28 22:33:00,068 - DEBUG:systeminfo.py:90,get_memory_info - Getting memory info
+2024-10-28 22:33:00,068 - DEBUG:systeminfo.py:105,get_hd_info - Getting hard drive info
+2024-10-28 22:33:00,068 - DEBUG:systeminfo.py:128,get_time_info - Getting OS info
+2024-10-28 22:33:00,068 - DEBUG:systeminfo.py:147,display_result - Displaying result
+2024-10-28 22:33:00,068 - DEBUG:systeminfo.py:159,display_result - Output format: text
+2024-10-28 22:33:03,264 - DEBUG:systeminfo.py:61,__init__ - SystemInfo object created
+2024-10-28 22:33:03,264 - DEBUG:systeminfo.py:65,get_os_info - Getting OS info
+2024-10-28 22:33:03,264 - DEBUG:systeminfo.py:78,get_cpu_info - Getting CPU info
+2024-10-28 22:33:04,268 - DEBUG:systeminfo.py:90,get_memory_info - Getting memory info
+2024-10-28 22:33:04,268 - DEBUG:systeminfo.py:105,get_hd_info - Getting hard drive info
+2024-10-28 22:33:04,268 - DEBUG:systeminfo.py:128,get_time_info - Getting OS info
+2024-10-28 22:33:04,268 - DEBUG:systeminfo.py:147,display_result - Displaying result
+2024-10-28 22:33:04,269 - DEBUG:systeminfo.py:159,display_result - Output format: text
+2024-10-28 22:33:08,764 - DEBUG:systeminfo.py:61,__init__ - SystemInfo object created
+2024-10-28 22:33:08,764 - DEBUG:systeminfo.py:65,get_os_info - Getting OS info
+2024-10-28 22:33:08,764 - DEBUG:systeminfo.py:78,get_cpu_info - Getting CPU info
+2024-10-28 22:33:09,768 - DEBUG:systeminfo.py:90,get_memory_info - Getting memory info
+2024-10-28 22:33:09,768 - DEBUG:systeminfo.py:105,get_hd_info - Getting hard drive info
+2024-10-28 22:33:09,768 - DEBUG:systeminfo.py:128,get_time_info - Getting OS info
+2024-10-28 22:33:09,768 - DEBUG:systeminfo.py:147,display_result - Displaying result
+2024-10-28 22:33:09,769 - DEBUG:systeminfo.py:159,display_result - Output format: text
+2024-10-28 22:33:21,017 - DEBUG:systeminfo.py:61,__init__ - SystemInfo object created
+2024-10-28 22:33:21,017 - DEBUG:systeminfo.py:65,get_os_info - Getting OS info
+2024-10-28 22:33:21,018 - DEBUG:systeminfo.py:78,get_cpu_info - Getting CPU info
+2024-10-28 22:33:22,018 - DEBUG:systeminfo.py:90,get_memory_info - Getting memory info
+2024-10-28 22:33:22,018 - DEBUG:systeminfo.py:105,get_hd_info - Getting hard drive info
+2024-10-28 22:33:22,019 - DEBUG:systeminfo.py:128,get_time_info - Getting OS info
+2024-10-28 22:33:22,019 - DEBUG:systeminfo.py:147,display_result - Displaying result
+2024-10-28 22:33:22,019 - DEBUG:systeminfo.py:156,display_result - Output format: JSON
+2024-10-28 22:33:27,327 - DEBUG:systeminfo.py:61,__init__ - SystemInfo object created
+2024-10-28 22:33:27,327 - DEBUG:systeminfo.py:65,get_os_info - Getting OS info
+2024-10-28 22:33:27,327 - DEBUG:systeminfo.py:78,get_cpu_info - Getting CPU info
+2024-10-28 22:33:28,328 - DEBUG:systeminfo.py:90,get_memory_info - Getting memory info
+2024-10-28 22:33:28,328 - DEBUG:systeminfo.py:105,get_hd_info - Getting hard drive info
+2024-10-28 22:33:28,328 - DEBUG:systeminfo.py:128,get_time_info - Getting OS info
+2024-10-28 22:33:28,328 - DEBUG:systeminfo.py:147,display_result - Displaying result
+2024-10-28 22:33:28,328 - DEBUG:systeminfo.py:156,display_result - Output format: JSON
+2024-10-28 22:33:36,019 - DEBUG:systeminfo.py:61,__init__ - SystemInfo object created
+2024-10-28 22:33:36,019 - DEBUG:systeminfo.py:65,get_os_info - Getting OS info
+2024-10-28 22:33:36,019 - DEBUG:systeminfo.py:78,get_cpu_info - Getting CPU info
+2024-10-28 22:33:37,021 - DEBUG:systeminfo.py:90,get_memory_info - Getting memory info
+2024-10-28 22:33:37,022 - DEBUG:systeminfo.py:105,get_hd_info - Getting hard drive info
+2024-10-28 22:33:37,022 - DEBUG:systeminfo.py:128,get_time_info - Getting OS info
+2024-10-28 22:33:37,022 - DEBUG:systeminfo.py:147,display_result - Displaying result
+2024-10-28 22:33:37,022 - DEBUG:systeminfo.py:156,display_result - Output format: JSON
+2024-10-28 22:33:39,943 - DEBUG:systeminfo.py:61,__init__ - SystemInfo object created
+2024-10-28 22:33:39,943 - DEBUG:systeminfo.py:65,get_os_info - Getting OS info
+2024-10-28 22:33:39,943 - DEBUG:systeminfo.py:78,get_cpu_info - Getting CPU info
+2024-10-28 22:33:40,944 - DEBUG:systeminfo.py:90,get_memory_info - Getting memory info
+2024-10-28 22:33:40,945 - DEBUG:systeminfo.py:105,get_hd_info - Getting hard drive info
+2024-10-28 22:33:40,946 - DEBUG:systeminfo.py:128,get_time_info - Getting OS info
+2024-10-28 22:33:40,946 - DEBUG:systeminfo.py:147,display_result - Displaying result
+2024-10-28 22:33:40,946 - DEBUG:systeminfo.py:156,display_result - Output format: JSON
+2024-10-28 22:33:44,875 - DEBUG:systeminfo.py:61,__init__ - SystemInfo object created
+2024-10-28 22:33:44,875 - DEBUG:systeminfo.py:65,get_os_info - Getting OS info
+2024-10-28 22:33:44,875 - DEBUG:systeminfo.py:78,get_cpu_info - Getting CPU info
+2024-10-28 22:33:45,876 - DEBUG:systeminfo.py:90,get_memory_info - Getting memory info
+2024-10-28 22:33:45,876 - DEBUG:systeminfo.py:105,get_hd_info - Getting hard drive info
+2024-10-28 22:33:45,877 - DEBUG:systeminfo.py:128,get_time_info - Getting OS info
+2024-10-28 22:33:45,877 - DEBUG:systeminfo.py:147,display_result - Displaying result
+2024-10-28 22:33:45,877 - DEBUG:systeminfo.py:156,display_result - Output format: JSON
+2024-10-28 22:33:51,670 - ERROR:systeminfo.py:48,<module> - No arguments provided. Please specify at least one option: -os, -c, -m, -d, -t, or -a.
+2024-10-29 18:38:58,133 - ERROR:systeminfo.py:48,<module> - No arguments provided. Please specify at least one option: -os, -c, -m, -d, -t, or -a.
+2024-10-29 19:17:26,996 - ERROR:systeminfo.py:48,<module> - No arguments provided. Please specify at least one option: -os, -c, -m, -d, -t, or -a.
+2024-10-29 19:17:41,975 - DEBUG:systeminfo.py:61,__init__ - SystemInfo object created
+2024-10-29 19:17:41,975 - DEBUG:systeminfo.py:65,get_os_info - Getting OS info
+2024-10-29 19:17:41,975 - DEBUG:systeminfo.py:78,get_cpu_info - Getting CPU info
+2024-10-29 19:17:42,976 - DEBUG:systeminfo.py:90,get_memory_info - Getting memory info
+2024-10-29 19:17:42,976 - DEBUG:systeminfo.py:105,get_hd_info - Getting hard drive info
+2024-10-29 19:17:42,977 - DEBUG:systeminfo.py:128,get_time_info - Getting OS info
+2024-10-29 19:17:42,977 - DEBUG:systeminfo.py:147,display_result - Displaying result
+2024-10-29 19:17:42,977 - DEBUG:systeminfo.py:159,display_result - Output format: text
+2024-10-29 19:17:51,310 - DEBUG:systeminfo.py:61,__init__ - SystemInfo object created
+2024-10-29 19:17:51,310 - DEBUG:systeminfo.py:65,get_os_info - Getting OS info
+2024-10-29 19:17:51,310 - DEBUG:systeminfo.py:78,get_cpu_info - Getting CPU info
+2024-10-29 19:17:52,313 - DEBUG:systeminfo.py:90,get_memory_info - Getting memory info
+2024-10-29 19:17:52,313 - DEBUG:systeminfo.py:105,get_hd_info - Getting hard drive info
+2024-10-29 19:17:52,314 - DEBUG:systeminfo.py:128,get_time_info - Getting OS info
+2024-10-29 19:17:52,314 - DEBUG:systeminfo.py:147,display_result - Displaying result
+2024-10-29 19:17:52,314 - DEBUG:systeminfo.py:159,display_result - Output format: text
+2024-10-29 20:19:05,157 - ERROR:systeminfo.py:48,<module> - No arguments provided. Please specify at least one option: -os, -c, -m, -d, -t, or -a.
+2024-10-29 20:19:10,480 - DEBUG:systeminfo.py:61,__init__ - SystemInfo object created
+2024-10-29 20:19:10,480 - DEBUG:systeminfo.py:65,get_os_info - Getting OS info
+2024-10-29 20:19:10,480 - DEBUG:systeminfo.py:78,get_cpu_info - Getting CPU info
+2024-10-29 20:19:11,483 - DEBUG:systeminfo.py:90,get_memory_info - Getting memory info
+2024-10-29 20:19:11,483 - DEBUG:systeminfo.py:105,get_hd_info - Getting hard drive info
+2024-10-29 20:19:11,484 - DEBUG:systeminfo.py:128,get_time_info - Getting OS info
+2024-10-29 20:19:11,484 - DEBUG:systeminfo.py:147,display_result - Displaying result
+2024-10-29 20:19:11,484 - DEBUG:systeminfo.py:159,display_result - Output format: text
+2024-10-29 20:19:22,377 - DEBUG:systeminfo.py:61,__init__ - SystemInfo object created
+2024-10-29 20:19:22,377 - DEBUG:systeminfo.py:65,get_os_info - Getting OS info
+2024-10-29 20:19:22,377 - DEBUG:systeminfo.py:78,get_cpu_info - Getting CPU info
+2024-10-29 20:19:23,378 - DEBUG:systeminfo.py:90,get_memory_info - Getting memory info
+2024-10-29 20:19:23,378 - DEBUG:systeminfo.py:105,get_hd_info - Getting hard drive info
+2024-10-29 20:19:23,379 - DEBUG:systeminfo.py:128,get_time_info - Getting OS info
+2024-10-29 20:19:23,379 - DEBUG:systeminfo.py:147,display_result - Displaying result
+2024-10-29 20:19:23,379 - DEBUG:systeminfo.py:159,display_result - Output format: text
