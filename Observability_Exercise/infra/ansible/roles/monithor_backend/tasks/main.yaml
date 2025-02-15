@@ -1,0 +1,31 @@
+---
+- name: Clone the Monithor_Backend repository
+  git:
+    repo: https://github.com/ShpoLeo/Monithor.App.git
+    dest: /home/{{ ansible_user }}/work
+
+- name: Print output to console
+  debug:
+    msg: "Monithor_Backend repository is cloned successfully"
+
+- name: Build the Monithor_Backend Docker image
+  ansible.builtin.command:
+    chdir: /home/{{ ansible_user }}/work/MoniThorBE
+    cmd: sudo docker build -t monithor_backend:latest .
+
+- name: Print output to console
+  debug:
+    msg: "Monithor_Backend Docker image is built successfully" 
+
+- name: Run the Monithor_Backend Docker container
+  community.docker.docker_container:
+    name: monithor_backend
+    image: monithor_backend:latest
+    ports:
+      - "5000:5000"
+    state: started
+    restart_policy: always
+
+- name: Print output to console
+  debug:
+    msg: "Monithor_Backend Docker container is running successfully"

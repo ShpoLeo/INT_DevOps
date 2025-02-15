@@ -1,0 +1,42 @@
+---
+- name: Clone the Monithor_Frontend repository
+  git:
+    repo: https://github.com/ShpoLeo/Monithor.App.git
+    dest: /home/{{ ansible_user }}/work
+
+- name: Print output to console  
+  debug:
+    msg: "Monithor_Frontend repository is cloned successfully"
+
+- name: Change Monithor_Backend IP address in the Monithor_Frontend configuration file
+  ansible.builtin.replace:
+    path: /home/{{ ansible_user }}/work/MoniThorFE/config.json
+    regexp: '"BE_SERVER": .*'
+    replace: '"BE_SERVER": "{{ hostvars["Monithor_Backend"].ansible_host }}"'
+
+- name: Print output to console
+  debug:
+    msg: "Monithor_Backend IP address is changed successfully"
+
+- name: Build the Monithor_Frontend Docker image
+  ansible.builtin.command:
+    chdir: /home/{{ ansible_user }}/work/MoniThorFE
+    cmd: sudo docker build -t monithor_frontend:latest .
+
+- name: Print output to console
+  debug:
+    msg: "Monithor_Frontend Docker image is built successfully"
+
+- name: Run the Monithor_Frontend Docker container
+  community.docker.docker_container:
+    name: monithor_frontend
+    image: monithor_frontend:latest
+    ports:
+      - "8080:8080"
+    state: started
+    network_mode: host
+    restart_policy: always
+
+- name: Print output to console
+  debug:
+    msg: "Monithor_Frontend Docker container is running successfully"

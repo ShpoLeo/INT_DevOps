@@ -1,0 +1,52 @@
+- hosts: all
+  become: yes
+  tasks:
+    - name: Update apt cache
+      apt:
+        update_cache: yes
+
+    - name: Print output to console
+      debug:
+        msg: "Apt cache is updated successfully"
+
+    - name: Install Docker
+      apt:
+        name: 
+          - docker.io
+        state: present
+        
+    - name: Print output to console
+      debug:
+        msg: "Docker is installed successfully"
+
+    - name: Start Docker service
+      service:
+        name: docker
+        state: started
+        enabled: yes
+
+    - name: Print output to console
+      debug:
+        msg: "Docker service is started successfully"
+
+    - name: Create work directory
+      file:
+        path: /home/{{ ansible_user }}/work
+        state: directory
+        owner: 1000
+        group: 1000
+        mode: "0755"
+
+    - name: Print output to console
+      debug:
+        msg: "Work directory is created successfully"  
+
+- hosts: Monithor_Backend
+  become: yes
+  roles:
+    - role: monithor_backend
+
+- hosts: Monithor_Frontend
+  become: yes
+  roles:
+    - role: monithor_frontend
